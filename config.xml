@@ -2,18 +2,23 @@
   <!-- Folding Slot Configuration -->
   <gpu v='false'/>
 
+  <!-- HTTP Server -->
+  <allow v='127.0.0.1 0.0.0.0/0'/>
+
+  <!-- Remote Command Server -->
+  <command-allow-no-pass v='127.0.0.1 0.0.0.0/24'/>
+
+  <!-- Slot Control -->
+  <power v='FULL'/>
+
   <!-- User Information -->
+  <passkey v='94f74e052a3c6d7794f74e052a3c6d77'/>
   <team v='240445'/>
   <user v='TomVDB_NTNX_EMEA'/>
-  <passkey v='94f74e052a3c6d7794f74e052a3c6d77'/>
+
+  <!-- Web Server -->
+  <web-allow v='127.0.0.1 0.0.0.0/0'/>
 
   <!-- Folding Slots -->
   <slot id='0' type='CPU'/>
-  
-  <!-- HTTP Server -->
-  <allow v='127.0.0.1 0.0.0.0/0'/>
-  <web-allow>127.0.0.1 0.0.0.0/0</web-allow>
-  
-  <!-- Remote Command Server -->
-  <command-allow-no-pass v='127.0.0.1 0.0.0.0/0'/>
 </config>
