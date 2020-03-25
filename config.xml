@@ -6,7 +6,7 @@
   <allow v='127.0.0.1 0.0.0.0/0'/>
 
   <!-- Remote Command Server -->
-  <command-allow-no-pass v='127.0.0.1 0.0.0.0/24'/>
+  <command-allow-no-pass v='127.0.0.1 10.68.25.57/24'/>
 
   <!-- Slot Control -->
   <power v='FULL'/>
